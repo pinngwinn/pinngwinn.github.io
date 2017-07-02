@@ -1,0 +1,33 @@
+.hello2 {
+    
+    width: 1600px;
+    grid-gap: 30px;
+
+    margin: auto;
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 50px 200px 50px 400px 400px 50px 150px;
+    grid-template-areas: 
+        "about about about about"
+        "text text text text"
+        "work work work work"
+        "photos1 photos2 photos3 photos4"
+        "photos5 photos6 photos7 photos8"
+        "contact contact contact contact"
+        "inf inf inf inf";
+    }
+
+.hello2 {display: grid;}
+.photos1 {grid-area: photos1;}
+.photos2 {grid-area: photos2;}
+.photos3 {grid-area: photos3;}
+.photos4 {grid-area: photos4;}
+.photos5 {grid-area: photos5;}
+.photos6 {grid-area: photos6;}
+.photos7 {grid-area: photos7;}
+.photos8 {grid-area: photos8;}
+.text {grid-area: text;}
+.about{grid-area: about;}
+.work{grid-area: work;}
+.inf{grid-area: inf}
+
+

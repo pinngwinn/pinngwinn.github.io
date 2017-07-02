@@ -1,0 +1,27 @@
+.hello {
+    
+    width: 1500px;
+    grid-gap: 0px;
+
+    
+    grid-template-columns: 400px 400px 400px 400px;
+    grid-template-rows: 500px 100px 100px 500px;
+    grid-template-areas: 
+        "photos1 photos2 photos3 photos4"
+        "photos1 text text photos4"
+        "photos5 text text photos6"
+        "photos5 photos7 photos8 photos6";
+    }
+
+.hello {display: grid;}
+.photos1 {grid-area: photos1;}
+.photos2 {grid-area: photos2;}
+.photos3 {grid-area: photos3;}
+.photos4 {grid-area: photos4;}
+.photos5 {grid-area: photos5;}
+.photos6 {grid-area: photos6;}
+.photos7 {grid-area: photos7;}
+.photos8 {grid-area: photos8;}
+.text {grid-area: text;}
+
+.hello>* 
